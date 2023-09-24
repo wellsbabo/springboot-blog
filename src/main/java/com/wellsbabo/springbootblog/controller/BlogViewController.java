@@ -20,6 +20,8 @@ public class BlogViewController {
         List<ArticleListViewResponse> articles = blogService.findAll().stream()
                 .map(ArticleListViewResponse::new)
                 .toList();
+
+        System.out.println(articles);
         model.addAttribute("articles", articles);   // 블로그 글 리스트 저장
         
         return "articleList";   // articleList.html 이라는 뷰 조회
