@@ -1,7 +1,9 @@
 package com.wellsbabo.springbootblog.dto;
 
 import com.wellsbabo.springbootblog.domain.Article;
+import lombok.Getter;
 
+@Getter
 public class ArticleListViewResponse {
 
     private final Long id;
