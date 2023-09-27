@@ -1,4 +1,3 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ö°ÿ°8·ÎÄ­¬1
-c
-java:S1128"HRemove this unused import 'com.wellsbabo.springbootblog.domain.Article'.(ö‡¡Œøÿÿÿÿ
+e
+java:S1192#"HDefine a constant instead of duplicating this literal "article" 4 times.(»½§Ç8ËÅŠõ¬1
