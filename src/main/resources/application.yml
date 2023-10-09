@@ -7,6 +7,16 @@ spring:
         format_sql: true
     #테이블 생성 후에 data.sql 실행
     defer-datasource-initialization: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 630944583770-ovmdvlgs6ho45ft2lvb8inb8mgi1ff4q.apps.googleusercontent.com
+            clientSecret: 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
+            scope:
+              - email
+              - profile
 
   datasource:
     url: jdbc:h2:mem:testdb
